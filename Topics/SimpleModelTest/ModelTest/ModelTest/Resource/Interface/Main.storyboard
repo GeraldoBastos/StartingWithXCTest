@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CEb-o0-uiU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="1ze-g3-ucO">
+            <objects>
+                <navigationController id="CEb-o0-uiU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="1bn-wN-zbk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.91372549020000005" green="0.87058823529999996" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.81960784310000001" green="0.090196078430000007" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FMi-jx-289"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLL-hs-0Fw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170" y="-590"/>
+        </scene>
+        <!--Testing with Model-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ModelTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="4f5-vY-ffM" userLabel="Book Name">
+                                <rect key="frame" x="20" y="30" width="560" height="21"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.87058823529411766" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VEO-hh-fWD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.30162185967999983" blue="0.15119465138421051" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="WAR-E4-EPf" userLabel="Author">
+                                <rect key="frame" x="20" y="61" width="560" height="21"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.87058823529411766" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.30162185967999983" blue="0.15119465138421051" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="jQa-KB-YZW" userLabel="Age">
+                                <rect key="frame" x="20" y="92" width="560" height="21"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.87058823529411766" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.30162185967999983" blue="0.15119465138421051" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="Ab3-vp-PYf" userLabel="Twitter">
+                                <rect key="frame" x="20" y="123" width="560" height="21"/>
+                                <color key="backgroundColor" red="0.9137254901960784" green="0.87058823529411766" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.30162185967999983" blue="0.15119465138421051" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jQa-KB-YZW" firstAttribute="top" secondItem="WAR-E4-EPf" secondAttribute="bottom" constant="10" id="29c-9p-lWa"/>
+                            <constraint firstItem="jQa-KB-YZW" firstAttribute="width" secondItem="WAR-E4-EPf" secondAttribute="width" id="3EW-3u-Hkp"/>
+                            <constraint firstItem="jQa-KB-YZW" firstAttribute="centerX" secondItem="WAR-E4-EPf" secondAttribute="centerX" id="3Uh-KV-mgQ"/>
+                            <constraint firstItem="WAR-E4-EPf" firstAttribute="height" secondItem="4f5-vY-ffM" secondAttribute="height" id="90e-TY-lfy"/>
+                            <constraint firstItem="Ab3-vp-PYf" firstAttribute="top" secondItem="jQa-KB-YZW" secondAttribute="bottom" constant="10" id="CFu-MB-Cwb"/>
+                            <constraint firstItem="WAR-E4-EPf" firstAttribute="width" secondItem="4f5-vY-ffM" secondAttribute="width" id="LRm-U5-DYn"/>
+                            <constraint firstItem="WAR-E4-EPf" firstAttribute="top" secondItem="4f5-vY-ffM" secondAttribute="bottom" constant="10" id="Obv-RM-EFG"/>
+                            <constraint firstItem="Ab3-vp-PYf" firstAttribute="centerX" secondItem="jQa-KB-YZW" secondAttribute="centerX" id="QMF-Ag-4ny"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4f5-vY-ffM" secondAttribute="trailing" id="QSo-1e-tls"/>
+                            <constraint firstItem="WAR-E4-EPf" firstAttribute="centerX" secondItem="4f5-vY-ffM" secondAttribute="centerX" id="RvA-CI-xMA"/>
+                            <constraint firstItem="Ab3-vp-PYf" firstAttribute="width" secondItem="jQa-KB-YZW" secondAttribute="width" id="SFG-gg-RQ2"/>
+                            <constraint firstItem="jQa-KB-YZW" firstAttribute="height" secondItem="WAR-E4-EPf" secondAttribute="height" id="U0a-K3-Nlp"/>
+                            <constraint firstItem="jQa-KB-YZW" firstAttribute="centerY" secondItem="WAR-E4-EPf" secondAttribute="centerY" id="VOQ-wb-413"/>
+                            <constraint firstItem="4f5-vY-ffM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="ial-Dh-84d"/>
+                            <constraint firstItem="4f5-vY-ffM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ocz-f1-xmS"/>
+                            <constraint firstItem="Ab3-vp-PYf" firstAttribute="height" secondItem="jQa-KB-YZW" secondAttribute="height" id="pvq-nQ-PpT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VOQ-wb-413"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Testing with Model" id="r2P-1Y-s0a"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="jQa-KB-YZW" id="0Z0-TQ-SEV"/>
+                        <outlet property="authorLabel" destination="WAR-E4-EPf" id="Rl0-Ve-6VA"/>
+                        <outlet property="bookNameLabel" destination="4f5-vY-ffM" id="Az6-BQ-g0K"/>
+                        <outlet property="twitterLabel" destination="Ab3-vp-PYf" id="bI5-Rl-6UL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1009" y="-590"/>
+        </scene>
+    </scenes>
+</document>

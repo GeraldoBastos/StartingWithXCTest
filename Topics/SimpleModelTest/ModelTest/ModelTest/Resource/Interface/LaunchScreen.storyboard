@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="ZRN-BK-bYc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Mel-bM-5VW">
+            <objects>
+                <viewController id="ZRN-BK-bYc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MBa-tG-X1T"/>
+                        <viewControllerLayoutGuide type="bottom" id="VnA-YN-TdK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ao8-eE-bs4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book - Starting with Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npF-6Z-3PJ">
+                                <rect key="frame" x="20" y="28" width="560" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="dIQ-T3-iFN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="27"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.090196078430000007" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing with Model" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hu-Aj-R0C">
+                                <rect key="frame" x="20" y="86" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2hR-24-aJa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.82072368419999997" green="0.090196078430000007" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift-logo" translatesAutoresizingMaskIntoConstraints="NO" id="ogY-bO-fxg">
+                                <rect key="frame" x="201" y="211" width="198" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="fan-xH-sFk"/>
+                                    <constraint firstAttribute="height" constant="178" id="xCy-g9-6Pp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91372549020000005" green="0.87058823529999996" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ogY-bO-fxg" firstAttribute="centerX" secondItem="ao8-eE-bs4" secondAttribute="centerX" id="0Yy-DG-QPn"/>
+                            <constraint firstItem="npF-6Z-3PJ" firstAttribute="top" secondItem="MBa-tG-X1T" secondAttribute="bottom" constant="8" id="D5k-Xr-X9z"/>
+                            <constraint firstItem="2hu-Aj-R0C" firstAttribute="leading" secondItem="ao8-eE-bs4" secondAttribute="leadingMargin" id="FSP-rp-qmG"/>
+                            <constraint firstItem="ogY-bO-fxg" firstAttribute="centerY" secondItem="ao8-eE-bs4" secondAttribute="centerY" id="JKK-cg-TxU"/>
+                            <constraint firstItem="2hu-Aj-R0C" firstAttribute="trailing" secondItem="ao8-eE-bs4" secondAttribute="trailingMargin" id="LWw-s3-qJ0"/>
+                            <constraint firstItem="npF-6Z-3PJ" firstAttribute="trailing" secondItem="ao8-eE-bs4" secondAttribute="trailingMargin" id="Lzs-ZW-mrC"/>
+                            <constraint firstItem="2hu-Aj-R0C" firstAttribute="top" secondItem="npF-6Z-3PJ" secondAttribute="bottom" constant="19" id="N1N-tv-b49"/>
+                            <constraint firstItem="npF-6Z-3PJ" firstAttribute="leading" secondItem="ao8-eE-bs4" secondAttribute="leadingMargin" id="ugm-t0-gEG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XHi-D0-Q1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-37" y="319"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="swift-logo" width="198" height="178"/>
+    </resources>
+</document>
