@@ -1,7 +1,7 @@
 # Starting with XCTest / Iniciando com XCTest
 
 
-[![Build Status](https://travis-ci.org/GeraldoBastos/TestsWithSwift.svg)](https://travis-ci.org/GeraldoBastos/TestsWithSwift)
+[![Build Status](https://travis-ci.org/GeraldoBastos/StartingWithXCTest.svg?branch=master)](https://travis-ci.org/GeraldoBastos/StartingWithXCTest)
 ![eBook](https://img.shields.io/badge/Product-eBook-green.svg)
 ![Platform](https://img.shields.io/badge/platform-ios-lightgray.svg)
 ![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
